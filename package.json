@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace demo start",
+    "clean:demo": "yarn workspace demo clean",
+    "clean:theme": "yarn workspace gatsby-theme-lumen clean"
+  },
+  "workspaces": [
+    "theme",
+    "demo"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-theme-lumen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gatsby": "2.13.6",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  }
+}
