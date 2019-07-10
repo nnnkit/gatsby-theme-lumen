@@ -4,7 +4,7 @@ exports.createPages = ({ actions, reporter }) => {
   // TODO replace this with data from somewhere
   actions.createPage({
     path: "/",
-    component: require.resolve("./content/pages/page.js"),
+    component: require.resolve("./src/templates/home.js"),
     context: {
       heading: "Your Theme Here",
       content: `
