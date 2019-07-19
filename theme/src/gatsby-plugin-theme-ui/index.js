@@ -1,8 +1,18 @@
 export default {
+  initialColorMode: "light",
+  // use CSS custom properties to help avoid flash of colors on initial page load
+  useCustomProperties: true,
   colors: {
-    text: "#333",
+    text: "#000",
     background: "#fff",
-    primary: "tomato"
+    primary: "#07c",
+    modes: {
+      dark: {
+        text: "#fff",
+        background: "#000",
+        primary: "#0cf"
+      }
+    }
   },
   fonts: {
     body: "Georgia, serif",
